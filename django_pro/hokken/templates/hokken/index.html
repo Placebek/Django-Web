@@ -1,7 +1,11 @@
 {% extends "hokken/shablon.html" %}
 
-{%block title%} Hokken {%endblock%}
+{%block title%} {{title}} {%endblock%}
 
 {% block content%}
-  <p>Hellooooooo to Hokken</p>
+  <div class='glavka'>
+    <h1>{{title}}<h1>
+    <h3>Добро пожаловать на главную страница, тут будет весело</h3>
+    <button class='btn btn-success'>Нажмите чтобы подтвердить</button>
+  </div>
 {% endblock %}
