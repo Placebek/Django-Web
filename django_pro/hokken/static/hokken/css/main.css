@@ -75,3 +75,18 @@ form {
   width: 400px;
   margin-top: 50px;
 }
+
+
+.news_detail {
+  text-align: center;
+  margin-left: 21%;
+  margin-right: 1%;
+}
+
+.news_detail_date {
+  text-align: right;
+}
+
+.news_detail_text{
+  text-align: justify;
+}

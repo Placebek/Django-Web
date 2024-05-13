@@ -1,0 +1,11 @@
+{% extends "hokken/shablon.html" %}
+
+{%block title%} Форма по добавлению статьи {%endblock%}
+
+{% block content %}
+  <div class="news_detail">
+    <h1>{{ article.title }}</h1>
+    <p class='news_detail_date'>{{ article.date }}</p>
+    <p class='news_detail_text'>{{ article.full_text }}</p>   
+  </div>
+{% endblock %}
